@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Wine shop</title>
+
+  <!-- Google Font -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  
+
+  <!-- Bootstrap Java Scripts -->
+  <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
+</head>
+
+<body>
+
+  <section id="title">
+  <div class="container-fluid">
+
+    
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="" style="color: #ffaa6b;">Wine Shop</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                  <a class="nav-link" href="" style="color: #ffaa6b;">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="" style="color: #ffaa6b;">Pricing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="" style="color: #ffaa6b;">Download</a>
+            </li>
+          </ul>
+      
+      </div>
+    </nav>
+
+
+
+
+    <!-- Title -->
+
+    <div class="row">
+
+      <div class="col-lg-6">
+        <h1>Download Wine Shop App on Google Playstore and Apple App Store.</h1>
+        <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+        <button type="button" class="btn btn-outline-light text-dark btn-lg download-button"><i class="fab fa-google-play"></i>Download</button>
+      </div>  
+
+    
+      <div class="col-lg-6">
+        <img class="title-image" src="images/bottle.png" alt="iphone-mockup">
+      </div>
+
+    </div>
+  </div>
+
+  </section>
+
+
+  <!-- Wine Catalog -->
+
+  <section id="testimonials">
+
+    <!-- add carousel -->
+    <!-- https://getbootstrap.com/docs/5.1/components/carousel/  for more info -->
+    <h1 class="testimonial-text" style="color:#ffaa6b; padding-top: 50px;">Wine Catalog</h1>
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>This compelling, fragrant red offers stunning aromas of woodland berry, new leather, pipe tobacco, pressed rose and the barest whiff of tar. The palate shows finesse and complexity, delivering juicy cranberry, red cherry, licorice and baking spice framed in tightly wound, elegant tannins. </h2>
+          <img class="testimonial-image" src="images/bot.png" alt="dog-profile">
+          <em>Corte alle mura, Chianti</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">This perfumed wine opens with layers of scents, including violet, woodland berries, new leather, forest floor and warm spices. Smooth and elegantly structured, the savory palate boasts juicy black-skinned berry, blood orange, licorice, tobacco and the barest hint of coffee bean alongside taut, fine-grained tannins.</h2>
+          <img class="testimonial-image" src="images/bo.png" alt="lady-profile">
+          <em>Cabernet, sauvignon</em>
+        </div>
+      </div>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+    </div>
+    
+
+    
+
+  </section>
+
+
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h1>Membership Plan</h1>
+    <p>Simple and affordable membership plans.</p>
+
+    <!-- Add card -->
+    <!-- card-deck makes them align evenly on the web page -->
+    <div class="row">
+      <!-- wrapping the cards in bootstrap grid for responsiveness  -->
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Bronze Membership</h3>
+          </div>
+          <div class="card-body">
+            <h2>$15 / month</h2>
+            <p>3 Packages of Our Finest White Wine.</p>
+            <p>2 Packages of Our Finest Red wine.</p>
+            <p>A Packs of Chilled Canned Beer.</p>
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Silver Membership</h3>
+          </div>
+          <div class="card-body">
+            <h2>$50 / month</h2>
+            <p>3 Packs of Our Exquisite Champaign.</p>
+            <p>4 Packs of Our Finest Red Wine.</p>
+            <p>3 of Rose Wine.</p>
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="pricing-column col-lg-4 col-md-12">
+        <div class="card">
+          <div class="card-header">
+            <h3>Gold Membership</h3>
+          </div>
+          <div class="card-body">
+            <h2>$100 / month</h2>
+            <p>3 Packs of Fortified Wine.</p>
+            <p>3 Packs of Our Exquisite Champaign.</p>
+            <p>3 Packs of Desert Wine.</p>
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    
+    
+    
+
+
+    
+    
+
+
+    
+    
+
+  </section>
+
+
+ 
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <p>© Copyright 2018 OldNavy</p>
+
+  </footer>
+
+
+</body>
+
+</html>
